@@ -1,0 +1,47 @@
+body {
+    background: rgb(210, 244, 255);
+}
+
+.avatar-s {
+    width: 30px;
+    height: 30px;
+}
+
+.avatar-m {
+    width: 60px;
+    height: 60px;
+}
+
+.avatar-l {
+    width: 120px;
+    height: 120px;
+}
+
+.avatar-xl {
+    width: 200px;
+    height: 200px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.square {
+    border-radius: unset;
+}
+
+.avatar-container {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 5px;
+}
+
+.avatar-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
